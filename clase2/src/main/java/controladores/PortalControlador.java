@@ -10,6 +10,6 @@ public class PortalControlador {
 
     @GetMapping("/")
     public String index(){
-        return "autor.html";
+        return "index.html";
     }
 }

@@ -14,7 +14,7 @@ public class AutorControlador {
 
     @GetMapping("/registrar")//llocalhost:8080/autor/registrar
     public String registrar() {
-        return "index.html";
+        return "autor.html";
     }
 
 }
